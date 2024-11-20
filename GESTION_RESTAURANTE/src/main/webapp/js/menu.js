@@ -13,11 +13,13 @@ function menu(){
 		}else{
 			document.getElementById("primer").innerHTML+="<li>"+plato.toUpperCase()+"</li>";
 		}
-		if((continuar=prompt("Deseas añadir mas en primer plato:(S/N)").toUpperCase()=="S")){
-			cont++;
-		}else{
-			console.log("Va ha salir del menu primer plato");
-			primero=true;
+		cont++;
+		continuar=prompt("Deseas añadir mas en primer plato:(S/N)");
+		if(continuar.toUpperCase()=="N" && cont>=3){
+			alert("PRIMER PLATO HECHO AÑADIDO AL MENU");
+			primero=true;		
+		}else if(cont<3 && continuar.toUpperCase()=="N"){
+			alert("Tiene que haber por lo menos 3 platos ya vas por el "+cont);
 		}
 		
 	}while(primero!=true);
@@ -29,11 +31,13 @@ function menu(){
 		}else{
 			document.getElementById("segundo").innerHTML+="<li>"+plato.toUpperCase()+"</li>";
 		}
-		if((continuar=prompt("Deseas añadir mas en segundo plato:(S/N)").toUpperCase()=="S")){
-			cont++;
-		}else{
-			console.log("Va ha salir del menu segundo plato");
+		cont++;
+		continuar=prompt("Deseas añadir mas en segundo plato:(S/N)");
+		if(continuar.toUpperCase()=="N" && cont>=3){
+			alert("SEGUNDO PLATO HECHO AÑADIDO MENU");
 			segundo=true;
+		}else if(cont<3 && continuar.toUpperCase()=="N"){
+			alert("Tiene que haber por lo menos 3 platos ya vas por el "+cont);
 		}
 		
 	}while(segundo!=true);

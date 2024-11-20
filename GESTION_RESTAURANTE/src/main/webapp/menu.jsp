@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +20,7 @@
 <body>
 	<div class="container">
 		<div class="menu">
+			<img src="./img/menuicon.png">
 			<h1>MENU DEL DIA</h1><br>
 			<h2>PRIMER PLATO</h2><br>
 			<ul id="primer">
