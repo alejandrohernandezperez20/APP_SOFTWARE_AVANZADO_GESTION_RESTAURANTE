@@ -38,7 +38,7 @@
 			<p id="coste"><b>IVA: 11,30 €</b></p>
 		</div><br>
 		<button type="button" class="btn btn-danger" onclick="menu()">MENU</button>
-		<a href="./index.jsp"><button type="button" class="btn btn-danger" style="margin-left: 39%;">REGRESAR</button></a>
+		<a href="./inicio.jsp"><button type="button" class="btn btn-danger" style="margin-left: 39%;">REGRESAR</button></a>
 		<button type="button" class="btn btn-danger" onclick="window.print()" style="float: right;">IMPRIMIR</button>
 	</div>
 </body>

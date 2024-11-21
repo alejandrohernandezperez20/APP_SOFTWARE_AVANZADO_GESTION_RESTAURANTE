@@ -66,7 +66,7 @@
 							      </div>
 							     
 							      <div class="modal-footer">
-							      	<span style="margin-rigth: 320px;"><b>MESA: 1</b></span>
+							      	<span style="margin-right: 320px;"><b>MESA: 1</b></span>
 							      	<!-- Cierra el modal -->
 							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
 							     
@@ -119,7 +119,7 @@
 							      </div>
 							     
 							      <div class="modal-footer">
-							      	<span style="margin-rigth: 320px;"><b>MESA: 2</b></span>
+							      	<span style="margin-right: 320px;"><b>MESA: 2</b></span>
 							      	<!-- Cierra el modal -->
 							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
 							     
@@ -172,7 +172,7 @@
 							      </div>
 							     
 							      <div class="modal-footer">
-							      	<span style="margin-rigth: 320px;"><b>MESA: 3</b></span>
+							      	<span style="margin-right: 320px;"><b>MESA: 3</b></span>
 							      	<!-- Cierra el modal -->
 							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
 							     
@@ -225,7 +225,7 @@
 							      </div>
 							     
 							      <div class="modal-footer">
-							      	<span style="margin-rigth: 320px;"><b>MESA: 4</b></span>
+							      	<span style="margin-right: 320px;"><b>MESA: 4</b></span>
 							      	<!-- Cierra el modal -->
 							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
 							     
@@ -278,7 +278,7 @@
 							      </div>
 							     
 							      <div class="modal-footer">
-							      	<span style="margin-rigth: 320px;"><b>MESA: 5</b></span>
+							      	<span style="margin-right: 320px;"><b>MESA: 5</b></span>
 							      	<!-- Cierra el modal -->
 							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
 							     
@@ -331,7 +331,7 @@
 							      </div>
 							     
 							      <div class="modal-footer">
-							      	<span style="margin-rigth: 320px;"><b>Terraza: 1</b></span>
+							      	<span style="margin-right: 320px;"><b>Terraza: 1</b></span>
 							      	<!-- Cierra el modal -->
 							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
 							     
@@ -384,7 +384,7 @@
 							      </div>
 							     
 							      <div class="modal-footer">
-							      	<span style="margin-rigth: 320px;"><b>Terraza: 2</b></span>
+							      	<span style="margin-right: 320px;"><b>Terraza: 2</b></span>
 							      	<!-- Cierra el modal -->
 							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
 							     

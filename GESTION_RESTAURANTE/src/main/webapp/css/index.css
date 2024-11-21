@@ -14,10 +14,7 @@ label{
 	color: white;
 }
 
-input[type="text"]{
-	width: 70%;
-}
 
-#login{
+#iniciar{
 	float: right;
 }
