@@ -7,21 +7,7 @@
 <title>Pedido</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<style type="text/css">
-	.compras{
-		border: 2px solid  black;
-		background-color: white;
-		width: 1000px;
-		margin-right: 300px;
-		border-radius: 10px;
-		margin-top:-20%;
-		padding: 1%;
-
-	}
-	.col-3{
-		margin-bottom: 3%;
-	}
-</style>
+<link rel="stylesheet" href="./css/pedido.css">
 </head>
 <body style="background-color: darkgrey;">
 	<div class="container">
@@ -52,8 +38,7 @@
 				/>
 			</div>
 			<div class="col-3">
-				<label class="form-label">Bebida</label>
-				<select class="form-select" aria-label="Default select example">
+				<select class="form-select bebida_select" aria-label="Default select example">
 					<option selected>Bebida</option>
 					<option value="1">Whisky Buchanno</option>
 				</select>
@@ -94,8 +79,7 @@
 				/>
 			</div>
 			<div class="col-3">
-				<label class="form-label">Bebida</label>
-				<select class="form-select" aria-label="Default select example">
+				<select class="form-select bebida_select" aria-label="Default select example">
 					<option selected>Bebida</option>
 					<option value="1">Whisky Buchanno</option>
 				</select>
@@ -136,8 +120,7 @@
 				/>
 			</div>
 			<div class="col-3">
-				<label class="form-label">Bebida</label>
-				<select class="form-select" aria-label="Default select example">
+				<select class="form-select bebida_select" aria-label="Default select example">
 					<option selected>Bebida</option>
 					<option value="1">Whisky Buchanno</option>
 				</select>
