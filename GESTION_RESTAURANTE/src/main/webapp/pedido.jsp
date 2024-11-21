@@ -25,131 +25,139 @@
 				  <option value="7">106</option>
 			</select>
 		</div>
-		<div class="compras row">
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Cantidad</label>
-				<input
-					type="number"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-				/>
+		<form action="">
+			<div class="compras row">
+				<!-- fila 1  -->
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Cantidad</label>
+					<input
+						type="number"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+					/>
+				</div>
+				<div class="col-3">
+					<label for="" class="form-label">Bebida</label>
+					<select class="form-select bebida_select" aria-label="Default select example">
+						<option selected>Bebida</option>
+						<option value="1">Whisky Buchanno</option>
+					</select>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Pedido</label>
+					<input
+						type="date"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+						style="width: 200px;"
+					/>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Requerido</label>
+					<input
+						type="date"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+						style="width: 200px;"
+					/>
+				</div>
+				<!-- fila 2 -->
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Cantidad</label>
+					<input
+						type="number"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+					/>
+				</div>
+				<div class="col-3">
+					<label for="" class="form-label">Bebida</label>
+					<select class="form-select bebida_select" aria-label="Default select example">
+						<option selected>Bebida</option>
+						<option value="1">Whisky Buchanno</option>
+					</select>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Pedido</label>
+					<input
+						type="date"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+						style="width: 200px;"
+					/>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Requerido</label>
+					<input
+						type="date"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+						style="width: 200px;"
+					/>
+				</div>
+				<!-- fila 3 -->
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Cantidad</label>
+					<input
+						type="number"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+					/>
+				</div>
+				<div class="col-3">
+					<label for="" class="form-label">Bebida</label>
+					<select class="form-select bebida_select" aria-label="Default select example">
+						<option selected>Bebida</option>
+						<option value="1">Whisky Buchanno</option>
+					</select>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Pedido</label>
+					<input
+						type="date"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+						style="width: 200px;"
+					/>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Requerido</label>
+					<input
+						type="date"
+						class="form-control"
+						name=""
+						id=""
+						aria-describedby="helpId"
+						placeholder=""
+						style="width: 200px;"
+					/>
+				</div>
 			</div>
-			<div class="col-3">
-				<select class="form-select bebida_select" aria-label="Default select example">
-					<option selected>Bebida</option>
-					<option value="1">Whisky Buchanno</option>
-				</select>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Fecha Pedido</label>
-				<input
-					type="date"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-					style="width: 200px;"
-				/>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Fecha Requerido</label>
-				<input
-					type="date"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-					style="width: 200px;"
-				/>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Cantidad</label>
-				<input
-					type="number"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-				/>
-			</div>
-			<div class="col-3">
-				<select class="form-select bebida_select" aria-label="Default select example">
-					<option selected>Bebida</option>
-					<option value="1">Whisky Buchanno</option>
-				</select>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Fecha Pedido</label>
-				<input
-					type="date"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-					style="width: 200px;"
-				/>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Fecha Requerido</label>
-				<input
-					type="date"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-					style="width: 200px;"
-				/>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Cantidad</label>
-				<input
-					type="number"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-				/>
-			</div>
-			<div class="col-3">
-				<select class="form-select bebida_select" aria-label="Default select example">
-					<option selected>Bebida</option>
-					<option value="1">Whisky Buchanno</option>
-				</select>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Fecha Pedido</label>
-				<input
-					type="date"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-					style="width: 200px;"
-				/>
-			</div>
-			<div class="mb-3 col-3">
-				<label for="" class="form-label">Fecha Requerido</label>
-				<input
-					type="date"
-					class="form-control"
-					name=""
-					id=""
-					aria-describedby="helpId"
-					placeholder=""
-					style="width: 200px;"
-				/>
-			</div>
-		</div>
+		</form>
 	</div>
 </body>
 </html>
