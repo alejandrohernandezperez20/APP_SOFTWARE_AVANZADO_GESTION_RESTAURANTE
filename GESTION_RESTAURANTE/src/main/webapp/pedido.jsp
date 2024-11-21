@@ -27,9 +27,21 @@
 		</div>
 		<form action="">
 			<div class="compras row">
-				<!-- fila 1  -->
+				<!-- fila descripcion -->
 				<div class="mb-3 col-3">
 					<label for="" class="form-label">Cantidad</label>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Bebida</label>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Pedido</label>
+				</div>
+				<div class="mb-3 col-3">
+					<label for="" class="form-label">Fecha Requerido</label>
+				</div>
+				<!-- fila 1  -->
+				<div class="mb-3 col-3">
 					<input
 						type="number"
 						class="form-control"
@@ -40,14 +52,12 @@
 					/>
 				</div>
 				<div class="col-3">
-					<label for="" class="form-label">Bebida</label>
 					<select class="form-select bebida_select" aria-label="Default select example">
 						<option selected>Bebida</option>
 						<option value="1">Whisky Buchanno</option>
 					</select>
 				</div>
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Fecha Pedido</label>
 					<input
 						type="date"
 						class="form-control"
@@ -59,7 +69,6 @@
 					/>
 				</div>
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Fecha Requerido</label>
 					<input
 						type="date"
 						class="form-control"
@@ -72,7 +81,6 @@
 				</div>
 				<!-- fila 2 -->
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Cantidad</label>
 					<input
 						type="number"
 						class="form-control"
@@ -83,14 +91,12 @@
 					/>
 				</div>
 				<div class="col-3">
-					<label for="" class="form-label">Bebida</label>
 					<select class="form-select bebida_select" aria-label="Default select example">
 						<option selected>Bebida</option>
 						<option value="1">Whisky Buchanno</option>
 					</select>
 				</div>
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Fecha Pedido</label>
 					<input
 						type="date"
 						class="form-control"
@@ -102,7 +108,6 @@
 					/>
 				</div>
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Fecha Requerido</label>
 					<input
 						type="date"
 						class="form-control"
@@ -115,7 +120,6 @@
 				</div>
 				<!-- fila 3 -->
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Cantidad</label>
 					<input
 						type="number"
 						class="form-control"
@@ -126,14 +130,12 @@
 					/>
 				</div>
 				<div class="col-3">
-					<label for="" class="form-label">Bebida</label>
 					<select class="form-select bebida_select" aria-label="Default select example">
 						<option selected>Bebida</option>
 						<option value="1">Whisky Buchanno</option>
 					</select>
 				</div>
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Fecha Pedido</label>
 					<input
 						type="date"
 						class="form-control"
