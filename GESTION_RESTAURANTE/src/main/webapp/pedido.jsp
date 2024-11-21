@@ -25,8 +25,8 @@
 				  <option value="7">106</option>
 			</select>
 		</div>
-		<form action="">
-			<div class="compras row">
+		<form action="" class="compras">
+			<div class="row">
 				<!-- fila descripcion -->
 				<div class="mb-3 col-3">
 					<label for="" class="form-label">Cantidad</label>
@@ -147,7 +147,6 @@
 					/>
 				</div>
 				<div class="mb-3 col-3">
-					<label for="" class="form-label">Fecha Requerido</label>
 					<input
 						type="date"
 						class="form-control"
@@ -159,6 +158,9 @@
 					/>
 				</div>
 			</div>
+				<button type="button" class="btn btn-danger">AUTORIZACION</button>
+				<button type="submit" class="btn btn-danger" style="float: right;">PEDIDO</button>
+
 		</form>
 	</div>
 </body>
