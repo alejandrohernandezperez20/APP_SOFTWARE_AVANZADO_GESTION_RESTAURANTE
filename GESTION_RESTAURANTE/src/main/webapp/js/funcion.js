@@ -68,3 +68,39 @@ function caja() {
 
     }
 }
+
+function bote() {
+    var division=0;
+    var division2=0;
+    var division3=0;
+    var division4=0;
+    var total=0;
+    var lunes=0;;
+    var martes=0;
+    var miercoles=0;
+    var jueves=0;
+    var viernes=0;
+    var sabado=0;
+    var hoy=0;
+    var resultado;
+    var resultado2;
+    var resultado3;
+    var resultado4;
+    hoy=Number(prompt("Monto del bote de hoy: "));
+    lunes=Number(prompt("Monto del bote de lunes: "));
+    martes=Number(prompt("Monto del bote de martes: "));
+    miercoles=Number(prompt("Monto del bote de miercoles: "));
+    jueves=Number(prompt("Monto del bote de jueves: "));
+    viernes=Number(prompt("Monto del bote de viernes: "));
+    sabado=Number(prompt("Monto del bote de sabado: "));
+    division=prompt("numero de personal de bar: ");
+    division2=prompt("numero de personal de sala: ");
+    division3=prompt("numero de personal de cocina: ");
+    division4=prompt("numero de personal de direccion: ");
+    total=lunes+martes+miercoles+jueves+viernes+sabado+hoy;
+    resultado=total*0.15/division;
+    resultado2=total*0.15/division2;
+    resultado3=total*0.20/division3;
+    resultado4=total*0.50/division4;
+    document.getElementById("caja").innerHTML="-----------------------------------------------------------------------------------<br>El total del bote de la semana es: "+total+"<br>El bartender cobra: "+resultado+"<br>El ayudante cobra: "+resultado2+"<br>El cocinero cobra: "+resultado3+"<br>El director cobra: "+resultado4;
+}

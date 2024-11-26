@@ -1,0 +1,22 @@
+@charset "UTF-8";
+#logo{
+	width: 120px;
+	height: 120px;
+}
+
+#recetas{
+    text-align: center;
+}
+
+#recetas h1{
+    color: blue;
+}
+
+.imagen{
+    width: 350px;
+    height: 150px;
+}
+
+.caja{
+	text-align:justify;
+}
