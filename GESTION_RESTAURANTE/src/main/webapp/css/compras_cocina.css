@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#caja{
+	border: 2px solid black;
+	width: 60%;
+	background-color: #fbf8b5;
+}
+
+#caja button{
+	margin-top:-3%;
+	float: left;
+	margin-left: 2%;
+}
+
+.resultado{
+	margin-right: 35%;
+	margin-top: -5.5%;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#mensaje{
+	color:  #8a0003; 
+	font-weight: bold;
+}
