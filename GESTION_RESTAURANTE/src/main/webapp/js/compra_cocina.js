@@ -18,9 +18,9 @@ function compras(){
 	});
 	promedio=resultado/fechas.length;
 	if(resultado<=500){
-		PintarCaja(resultado,promedio,true);
+		PintarCaja(resultado,promedio.toFixed(2),true);
 	}else{
-		PintarCaja(resultado,promedio,false);
+		PintarCaja(resultado,promedio.toFixed(2),false);
 	}
 
 }
@@ -34,13 +34,13 @@ function PintarCaja(resultado,promedio,cont){
 	if(cont==true){
 		document.getElementById("resultado").innerHTML=resultado;
 		document.getElementById("resultados").innerHTML=resultado;
-		document.getElementById("promedio").innerHTML=promedio;
+		document.getElementById("promedio").innerHTML=promedio+"%";
 		cantidad=monton-resultado;
 		document.getElementById("mensaje").innerHTML="El sobrante que queda es "+cantidad+"€";
 	}else{
 		document.getElementById("resultado").innerHTML=resultado;
 		document.getElementById("resultados").innerHTML=resultado;
-		document.getElementById("promedio").innerHTML=promedio;
+		document.getElementById("promedio").innerHTML=promedio+"%";
 		cantidad=resultado-monton;
 		document.getElementById("mensaje").innerHTML="Te has pasado del costo del monton 500€ por "+cantidad+"€";
 	}

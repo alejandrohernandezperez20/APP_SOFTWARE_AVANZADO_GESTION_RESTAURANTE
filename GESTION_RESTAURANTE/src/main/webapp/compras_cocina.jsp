@@ -57,7 +57,7 @@
 			<br>
 			<h3 class="ms-4">Promedio de Gasto semanal</h3><span class="float-end resultado" id="promedio"></span><br>
 			<h3 class="ms-4">Total gasto semanal</h3><span class="float-end resultado" id="resultado"></span><br>
-			<h3 class="ms-4" id="mensaje"></h3>
+			<h3 class="text-center" id="mensaje"></h3>
 		</div>
 	</div>
 </body>
