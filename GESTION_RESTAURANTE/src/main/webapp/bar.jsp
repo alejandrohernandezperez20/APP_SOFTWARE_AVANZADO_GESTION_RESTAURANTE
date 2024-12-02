@@ -55,9 +55,9 @@
 		</div>
 		<h4 style="text-align: center;"><b>NOVEDADES DEL DIA</b></h4>
 		<div style="margin-left: 50px;">
-			<form action="" >
+			<form action="dbd.jsp" method="post" >
 				<input type="date" name="fecha"><br>
-				<textarea rows="10" cols="140"></textarea><br>
+				<textarea name="novedad" rows="10" cols="140"></textarea><br>
 				<button type="submit" class="btn btn-danger">Guardar</button>
 				<button type="reset" class="btn btn-danger" style="float: right;margin-right: 24%;">Borrar</button>
 			</form>
