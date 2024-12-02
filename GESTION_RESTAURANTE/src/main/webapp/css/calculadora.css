@@ -8,7 +8,7 @@
     padding: 3%;
     padding-right: 1.5%;
     padding-left: 1.5%;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .boton-calculo{
@@ -31,4 +31,32 @@
     height: 80px;
     margin-bottom: 6%;
     margin-right: 2%;
+}
+
+#calculo{
+    background-color: #fbffaf;
+    width: 99.9%;
+    height: 90px;
+    border-radius: 20px;
+    padding-top: 3.5%;
+    padding-bottom: 1%;
+    text-align: right;
+    margin-bottom: 5%;
+}
+
+#operacion{
+    color: #00bf63;
+    font-size: 30px;
+    margin-right: 5.5%;
+}
+
+
+#resultado{
+    color: #a6a6a6;
+    font-size: 15px;
+    margin-right: 8.5%;
+}
+
+.boton-calculo:active,.boton-numerico:active{
+	background: #a6a6a6;
 }

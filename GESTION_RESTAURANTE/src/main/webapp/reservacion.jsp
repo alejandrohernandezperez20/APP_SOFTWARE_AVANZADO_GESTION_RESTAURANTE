@@ -48,20 +48,19 @@
 							      <div class="modal-body"
 							      style="text-align: center;"
 							      >
-									<form action="">
-							      
-							        <label>Nombre del Cliente</label><br>
-							        <input type="text" name="cliente"><br>
-							        <label>Nº PAX</label><br>
-							        <input type="number" name="numero"><br>
-							        <label>fecha de reservacion</label><br>
-							        <input type="date" name="fecha"><br>
-							        <label>telefono de Contacto</label><br>
-							        <input type="text" name="telefono"><br>
-							        <!-- Reinicia el formulario  -->
-							      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
-							      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
-							        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
+									<form action="bdreserva.jsp" method="post">
+								        <label>Nombre del Cliente</label><br>
+								        <input type="text" name="cliente"><br>
+								        <label>Nº PAX</label><br>
+								        <input type="number" name="numero"><br>
+								        <label>fecha de reservacion</label><br>
+								        <input type="date" name="fecha"><br>
+								        <label>telefono de Contacto</label><br>
+								        <input type="text" name="telefono"><br>
+								        <!-- Reinicia el formulario  -->
+								      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
+								      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
+								        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
 							        </form>
 							      </div>
 							     
@@ -101,20 +100,19 @@
 							      <div class="modal-body"
 							      style="text-align: center;"
 							      >
-									<form action="">
-							      
-							        <label>Nombre del Cliente</label><br>
-							        <input type="text" name="cliente"><br>
-							        <label>Nº PAX</label><br>
-							        <input type="number" name="numero"><br>
-							        <label>fecha de reservacion</label><br>
-							        <input type="date" name="fecha"><br>
-							        <label>telefono de Contacto</label><br>
-							        <input type="text" name="telefono"><br>
-							        <!-- Reinicia el formulario  -->
-							      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
-							      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
-							        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
+									<form action="bdreserva.jsp" method="post">
+								        <label>Nombre del Cliente</label><br>
+								        <input type="text" name="cliente"><br>
+								        <label>Nº PAX</label><br>
+								        <input type="number" name="numero"><br>
+								        <label>fecha de reservacion</label><br>
+								        <input type="date" name="fecha"><br>
+								        <label>telefono de Contacto</label><br>
+								        <input type="text" name="telefono"><br>
+								        <!-- Reinicia el formulario  -->
+								      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
+								      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
+								        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
 							        </form>
 							      </div>
 							     
@@ -154,20 +152,19 @@
 							      <div class="modal-body"
 							      style="text-align: center;"
 							      >
-									<form action="">
-							      
-							        <label>Nombre del Cliente</label><br>
-							        <input type="text" name="cliente"><br>
-							        <label>Nº PAX</label><br>
-							        <input type="number" name="numero"><br>
-							        <label>fecha de reservacion</label><br>
-							        <input type="date" name="fecha"><br>
-							        <label>telefono de Contacto</label><br>
-							        <input type="text" name="telefono"><br>
-							        <!-- Reinicia el formulario  -->
-							      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
-							      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
-							        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
+									<form action="bdreserva.jsp" method="post">
+								        <label>Nombre del Cliente</label><br>
+								        <input type="text" name="cliente"><br>
+								        <label>Nº PAX</label><br>
+								        <input type="number" name="numero"><br>
+								        <label>fecha de reservacion</label><br>
+								        <input type="date" name="fecha"><br>
+								        <label>telefono de Contacto</label><br>
+								        <input type="text" name="telefono"><br>
+								        <!-- Reinicia el formulario  -->
+								      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
+								      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
+								        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
 							        </form>
 							      </div>
 							     
@@ -207,20 +204,19 @@
 							      <div class="modal-body"
 							      style="text-align: center;"
 							      >
-									<form action="">
-							      
-							        <label>Nombre del Cliente</label><br>
-							        <input type="text" name="cliente"><br>
-							        <label>Nº PAX</label><br>
-							        <input type="number" name="numero"><br>
-							        <label>fecha de reservacion</label><br>
-							        <input type="date" name="fecha"><br>
-							        <label>telefono de Contacto</label><br>
-							        <input type="text" name="telefono"><br>
-							        <!-- Reinicia el formulario  -->
-							      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
-							      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
-							        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
+									<form action="bdreserva.jsp" method="post">
+								        <label>Nombre del Cliente</label><br>
+								        <input type="text" name="cliente"><br>
+								        <label>Nº PAX</label><br>
+								        <input type="number" name="numero"><br>
+								        <label>fecha de reservacion</label><br>
+								        <input type="date" name="fecha"><br>
+								        <label>telefono de Contacto</label><br>
+								        <input type="text" name="telefono"><br>
+								        <!-- Reinicia el formulario  -->
+								      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
+								      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
+								        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
 							        </form>
 							      </div>
 							     
@@ -260,20 +256,19 @@
 							      <div class="modal-body"
 							      style="text-align: center;"
 							      >
-									<form action="">
-							      
-							        <label>Nombre del Cliente</label><br>
-							        <input type="text" name="cliente"><br>
-							        <label>Nº PAX</label><br>
-							        <input type="number" name="numero"><br>
-							        <label>fecha de reservacion</label><br>
-							        <input type="date" name="fecha"><br>
-							        <label>telefono de Contacto</label><br>
-							        <input type="text" name="telefono"><br>
-							        <!-- Reinicia el formulario  -->
-							      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
-							      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
-							        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
+									<form action="bdreserva.jsp" method="post">
+								        <label>Nombre del Cliente</label><br>
+								        <input type="text" name="cliente"><br>
+								        <label>Nº PAX</label><br>
+								        <input type="number" name="numero"><br>
+								        <label>fecha de reservacion</label><br>
+								        <input type="date" name="fecha"><br>
+								        <label>telefono de Contacto</label><br>
+								        <input type="text" name="telefono"><br>
+								        <!-- Reinicia el formulario  -->
+								      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
+								      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
+								        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
 							        </form>
 							      </div>
 							     
@@ -313,20 +308,19 @@
 							      <div class="modal-body"
 							      style="text-align: center;"
 							      >
-									<form action="">
-							      
-							        <label>Nombre del Cliente</label><br>
-							        <input type="text" name="cliente"><br>
-							        <label>Nº PAX</label><br>
-							        <input type="number" name="numero"><br>
-							        <label>fecha de reservacion</label><br>
-							        <input type="date" name="fecha"><br>
-							        <label>telefono de Contacto</label><br>
-							        <input type="text" name="telefono"><br>
-							        <!-- Reinicia el formulario  -->
-							      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
-							      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
-							        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
+									<form action="bdreserva.jsp" method="post">
+								        <label>Nombre del Cliente</label><br>
+								        <input type="text" name="cliente"><br>
+								        <label>Nº PAX</label><br>
+								        <input type="number" name="numero"><br>
+								        <label>fecha de reservacion</label><br>
+								        <input type="date" name="fecha"><br>
+								        <label>telefono de Contacto</label><br>
+								        <input type="text" name="telefono"><br>
+								        <!-- Reinicia el formulario  -->
+								      	<button type="reset" class="btn btn-danger" style="float:right;">BORRAR</button>
+								      	<!-- Envia los datos cuando este el formulario aunque lo manda igual -->
+								        <button type="submit" class="btn btn-danger" style="float: left;">RESERVA</button>
 							        </form>
 							      </div>
 							     

@@ -13,29 +13,31 @@
 	<div class="container mt-4">
 		<div class="calculadora">
 			<div id="calculo">
-				<p id="calculo"></p>
-				<p id="resultado"></p>
+				<span id="operacion">5*5</span><br>
+				<span id="resultado">25</span>
 			</div>
-			<input type="reset" style="color: #00bf63;" class="boton-calculo" value="C">
-			<input type="button" class="boton-calculo" value="()">
-			<input type="button" class="boton-calculo" value="%">
-			<input type="button" class="boton-calculo" value="/">
-			<input type="button" class="boton-numerico" value="7">
-			<input type="button" class="boton-numerico" value="8">
-			<input type="button" class="boton-numerico" value="9">
-			<input type="button" class="boton-calculo" value="*">
-			<input type="button" class="boton-numerico" value="4">
-			<input type="button" class="boton-numerico" value="5">
-			<input type="button" class="boton-numerico" value="6">
-			<input type="button" class="boton-calculo" value="-">
-			<input type="button" class="boton-numerico" value="1">
-			<input type="button" class="boton-numerico" value="2">
-			<input type="button" class="boton-numerico" value="3">
-			<input type="button" class="boton-calculo" value="+">
-			<input type="button" class="boton-numerico" value="+/-">
-			<input type="button" class="boton-numerico" value="0">
-			<input type="button" class="boton-numerico" value="9">
-			<input type="button" class="boton-calculo" value="*">
+			<form action="">
+				<input type="reset" style="color: #00bf63;" class="boton-calculo" value="C">
+				<input type="button" class="boton-calculo" value="()">
+				<input type="button" class="boton-calculo" value="%">
+				<input type="button" class="boton-calculo" value="/">
+				<input type="button" class="boton-numerico" value="7">
+				<input type="button" class="boton-numerico" value="8">
+				<input type="button" class="boton-numerico" value="9">
+				<input type="button" class="boton-calculo" value="*">
+				<input type="button" class="boton-numerico" value="4">
+				<input type="button" class="boton-numerico" value="5">
+				<input type="button" class="boton-numerico" value="6">
+				<input type="button" class="boton-calculo" value="-">
+				<input type="button" class="boton-numerico" value="1">
+				<input type="button" class="boton-numerico" value="2">
+				<input type="button" class="boton-numerico" value="3">
+				<input type="button" class="boton-calculo" value="+">
+				<input type="button" class="boton-numerico" value="0">
+				<input type="button" class="boton-calculo" value="+/-">
+				<input type="button" class="boton-calculo" value=".">
+				<input type="submit" class="boton-calculo" value="=">
+			</form>
 		</div>
 	</div>
 </body>
