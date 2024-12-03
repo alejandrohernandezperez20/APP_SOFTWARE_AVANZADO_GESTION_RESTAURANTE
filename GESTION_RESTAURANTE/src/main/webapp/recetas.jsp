@@ -590,7 +590,7 @@ pageEncoding="UTF-8"%>
       <br><br>
       <h1 style="text-align: center;color: white;">Crear Receta</h1>
       <br>
-      <form action="" name="formulario">
+      <form action="bdreceta.jsp" method="post">
 	      <div class="row">
 	      
 	      	<div class="col-3 ">
@@ -601,7 +601,7 @@ pageEncoding="UTF-8"%>
 		          <input
 		            type="text"
 		            class="form-control"
-		            name=""
+		            name="nombre"
 		            id=""
 		            aria-describedby="helpId"
 		            placeholder=""
@@ -622,19 +622,19 @@ pageEncoding="UTF-8"%>
       		</thead>
       		<tbody>
       			<tr>
-      				<td><input type="number" class="form-control" style="border: 1px solid black;width: 70%;"></td>
-      				<td><input type="number" class="form-control" style="border: 1px solid black;width: 70%;"></td>
-      				<td><input type="text" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="number" name="cantidad1" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="number" name="unidad1" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="text" name="ingrediente1" class="form-control" style="border: 1px solid black;width: 70%;"></td>
       			</tr>
       			<tr>
-      				<td><input type="number" class="form-control" style="border: 1px solid black;width: 70%;"></td>
-      				<td><input type="number" class="form-control" style="border: 1px solid black;width: 70%;"></td>
-      				<td><input type="text" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="number" name="cantidad2" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="number" name="unidad2" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="text" name="ingrediente2"  class="form-control" style="border: 1px solid black;width: 70%;"></td>
       			</tr>
       			<tr>
-      				<td><input type="number" class="form-control" style="border: 1px solid black;width: 70%;"></td>
-      				<td><input type="number" class="form-control" style="border: 1px solid black;width: 70%;"></td>
-      				<td><input type="text" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="number" name="cantidad3" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="number" name="unidad3" class="form-control" style="border: 1px solid black;width: 70%;"></td>
+      				<td><input type="text" name="ingrediente3"  class="form-control" style="border: 1px solid black;width: 70%;"></td>
       			</tr>
       		</tbody>
       	</table>
@@ -649,7 +649,7 @@ pageEncoding="UTF-8"%>
 		          <input
 		            type="text"
 		            class="form-control"
-		            name=""
+		            name="decoracion"
 		            id=""
 		            aria-describedby="helpId"
 		            placeholder=""
@@ -664,7 +664,7 @@ pageEncoding="UTF-8"%>
 		          <input
 		            type="text"
 		            class="form-control"
-		            name=""
+		            name="cristaleria"
 		            id=""
 		            aria-describedby="helpId"
 		            placeholder=""
@@ -676,7 +676,7 @@ pageEncoding="UTF-8"%>
       	<div style="text-align: center;">
 		    <label for="" class="form-label" style="font-size: 25px;"><b>Preparacion:</b></label>
 		    <br>
-		    <textarea rows="15" name="" cols="175"></textarea>
+		    <textarea name="preparacion" rows="15" name="" cols="175"></textarea>
 	    </div>
 	    <br>
 	    <button type="submit" class="btn btn-danger">Guardar</button>
