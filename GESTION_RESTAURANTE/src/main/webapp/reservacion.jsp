@@ -360,7 +360,7 @@
 							      <div class="modal-body"
 							      style="text-align: center;"
 							      >
-									<form action="">
+									<form action="bdreserva.jsp" method="post">
 							      
 							        <label>Nombre del Cliente</label><br>
 							        <input type="text" name="cliente"><br>
