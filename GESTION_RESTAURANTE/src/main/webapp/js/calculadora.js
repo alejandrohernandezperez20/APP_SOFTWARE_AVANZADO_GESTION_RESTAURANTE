@@ -29,5 +29,6 @@ function comprobacion_linea(valor,linea){
 	}
 }
 
+/*hola*/
 
 
