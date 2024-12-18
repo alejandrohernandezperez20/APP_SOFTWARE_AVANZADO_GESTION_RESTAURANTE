@@ -213,7 +213,7 @@ pageEncoding="UTF-8"%>
             /></svg
           >ARQUEO CAJA
         </button>
-        <button type="button" class="btn btn-danger">
+        <button type="button" class="btn btn-danger" onclick="margen()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -230,7 +230,7 @@ pageEncoding="UTF-8"%>
             /></svg
           >MARGEN BEBIDAS
         </button>
-         <button type="button" class="btn btn-danger">
+         <button type="button" class="btn btn-danger" onclick="costo()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"

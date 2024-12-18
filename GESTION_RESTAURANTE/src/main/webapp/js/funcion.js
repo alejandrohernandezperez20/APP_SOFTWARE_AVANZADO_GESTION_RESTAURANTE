@@ -44,6 +44,27 @@ function venta_prevista() {
     document.getElementById("caja").innerHTML="***********************************<br>INGRESO PREVISTO<br>***********************************<br>Sus ventas previstas son "+resultados+"<br>Su margen comercial es: "+margen+"<br>Su ingreso previsto es: "+ingreso_previsto;
 }
 
+function margen() {
+    var precio;
+    var margen;
+    var costo;
+    precio=prompt("precio de venta: ");
+    costo=prompt("costo del trago: ");
+    margen=precio-costo;
+    document.getElementById("caja").innerHTML="***********************************<br>INGRESO PREVISTO<br>***********************************<br>Su margen comercial es: "+margen;
+}
+
+function costo() {
+    var unidad;
+    var resultados;
+    var costo;
+    unidad=Number(prompt("cuanto tragos desea calcular para su venta"));
+    costo=Number(prompt("costo del trago: "));
+    resultados=(unidad * costo).toFixed(2);
+    document.getElementById("caja").innerHTML="***********************************<br>INGRESO PREVISTO<br>***********************************<br>Su costo previsto son "+resultados;
+}
+
+
 
 function caja() {
     const arqueo=500;

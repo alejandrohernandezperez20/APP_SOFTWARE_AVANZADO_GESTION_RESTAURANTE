@@ -48,7 +48,7 @@
 				</tr>
 							<!-- bebida 2 -->
 				<tr class="bebida">
-					<td><img alt="" src="./inventario/whisky.png" width="70" height="70"></td>
+					<td><img alt="" src="./inventario/2.png" width="70" height="70"></td>
 					<td><h5 class="demo1" style="text-align: center;"></h5></td>
 					<td><h5 class="demo2" style="text-align: center;"></h5></td>
 					<td><h5 class="demo3" style="text-align: center;"></h5></td>
@@ -57,7 +57,7 @@
 				</tr>
 							<!-- bebida 3 -->
 				<tr class="bebida">
-					<td><img alt="" src="./inventario/whisky.png" width="70" height="70"></td>
+					<td><img alt="" src="./inventario/3.png" width="70" height="70"></td>
 					<td><h5 class="demo1" style="text-align: center;"></h5></td>
 					<td><h5 class="demo2" style="text-align: center;"></h5></td>
 					<td><h5 class="demo3" style="text-align: center;"></h5></td>
@@ -66,7 +66,7 @@
 				</tr>
 							<!-- bebida 4 -->
 				<tr class="bebida">
-					<td><img alt="" src="./inventario/whisky.png" width="70" height="70"></td>
+					<td><img alt="" src="./inventario/4.png" width="70" height="70"></td>
 					<td><h5 class="demo1" style="text-align: center;"></h5></td>
 					<td><h5 class="demo2" style="text-align: center;"></h5></td>
 					<td><h5 class="demo3" style="text-align: center;"></h5></td>
@@ -75,7 +75,7 @@
 				</tr>
 							<!-- bebida 5 -->
 				<tr  style="border-bottom: 10px solid green;">
-					<td><img alt="" src="./inventario/whisky.png" width="70" height="70"></td>
+					<td><img alt="" src="./inventario/5.png" width="70" height="70"></td>
 					<td><h5 class="demo1" style="text-align: center;"></h5></td>
 					<td><h5 class="demo2" style="text-align: center;"></h5></td>
 					<td><h5 class="demo3" style="text-align: center;"></h5></td>
